@@ -58,3 +58,26 @@ Python is highly object-oriented, virtually every data item in python is an obje
 
 <img src="assets/x=10.png">
 
+Now if look at the type of the variable:
+
+`x = 100`
+
+`print( type(x) )`
+
+`<class 'int'>`
+
+Now re-assigning a "string" to x
+
+`x = 'Hello'`
+
+`print(type(x))`
+
+`<class 'str'>`
+
+So its proves that `x` is just holding an object reference.
+
+> Object Identity
+
+Whenever an object is created in python, a unique integer is given to identify it.
+
+Built-in 
